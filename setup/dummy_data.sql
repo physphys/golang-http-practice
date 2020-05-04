@@ -1,8 +1,8 @@
 TRUNCATE todo restart identity CASCADE;
 
 INSERT INTO
-  todo (id, name, num)
+  todo (name, num)
 VALUES
-  (1, 'curry', 1),
-  (2, 'milk', 2),
-  (3, 'rice', 10)
+  ('curry', 1),
+  ('milk', 2),
+  ('rice', 10)
